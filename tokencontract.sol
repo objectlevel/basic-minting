@@ -10,7 +10,7 @@ contract TheTokenName is ERC721Enumerable, Ownable {
 
     string _baseTokenURI;
     uint256 private _reserved = 100;
-    uint256 private _price = 0.06 ether;
+    uint256 private _price = 0.5 ether;
     bool public _paused = true;
 
     // withdraw addresses
